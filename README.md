@@ -41,7 +41,7 @@ nvim
 
 ## Common issues
 
-### Java Checkstyle (Still didn't work)
+### Java Checkstyle
 
 [Linter Checkstyle](https://github.com/mfussenegger/nvim-lint/blob/master/lua/lint/linters/checkstyle.lua)
 [mfussenegger/nvim-lint](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#checkstyle)
