@@ -16,12 +16,17 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- Theme tokyonight https://github.com/folke/tokyonight.nvim
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  -- Todo comments
   {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
-    --config = function()
-    --  require("todo-comments").setup {}
-    --end
     opts = {},
     event = "User AstroFile",
     cmd = { "TodoQuickFix" },
@@ -29,4 +34,15 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
     },
   },
+  -- TreeJS https://github.com/AstroNvim/astrocommunity/blob/main/lua/astrocommunity/editing-support/treesj/init.lua
+  -- {
+  --   "Wansmer/treesj",
+  --   keys = { { "<leader>m", "<CMD>TSJToggle<CR>", desc = "Toggle Treesitter Join" } },
+  --   cmd = { "TSJToggle", "TSJSplit", "TSJJoin" },
+  --   opts = { use_default_keymaps = false },
+  -- Git blame
+  -- {
+  --   "f-person/git-blame .nvim",
+  --   event = "VeryLazy",
+  -- },
 }

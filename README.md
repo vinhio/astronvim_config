@@ -38,6 +38,7 @@ nvim
 ## Tutorials
 
 [Neovim With AstroNvim](https://www.youtube.com/watch?v=GEHPiZ10gOk)
+[5 Neovim plugins to improve your productivity](https://www.youtube.com/watch?v=NJDu_53T_4M)
 
 ## Common issues
 

@@ -7,4 +7,24 @@ return {
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.typescript" },
+  -- Surround
+  {
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.motion.nvim-surround" },
+  },
+  -- TreeJS
+  {
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.editing-support.treesj" },
+  },
+  -- Git blame
+  {
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.git.git-blame-nvim" },
+  },
+  -- Trouble shooting
+  {
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.diagnostics.trouble-nvim" },
+  },
 }
