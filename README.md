@@ -34,3 +34,14 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 ```shell
 nvim
 ```
+
+## Tutorials
+
+[Neovim With AstroNvim](https://www.youtube.com/watch?v=GEHPiZ10gOk)
+
+## Common issues
+
+### Java Checkstyle (Still didn't work)
+
+[Linter Checkstyle](https://github.com/mfussenegger/nvim-lint/blob/master/lua/lint/linters/checkstyle.lua)
+[mfussenegger/nvim-lint](https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md#checkstyle)

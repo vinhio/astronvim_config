@@ -1,3 +1,10 @@
+-- TODO: What else?
+-- PERF: Fully optimised
+-- HACK: hmm, this hooks a bit funky
+-- NOTE: adding a note
+-- FIX: this needs fixing
+-- WARNING: ???
+
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
@@ -9,4 +16,17 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    --config = function()
+    --  require("todo-comments").setup {}
+    --end
+    opts = {},
+    event = "User AstroFile",
+    cmd = { "TodoQuickFix" },
+    keys = {
+      { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
+    },
+  },
 }
