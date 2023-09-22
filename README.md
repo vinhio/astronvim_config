@@ -35,6 +35,11 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 nvim
 ```
 
+## Aswesome Neovim
+
+[Awesome Neovim Overview](https://www.trackawesomelist.com/rockerBOO/awesome-neovim/readme/#fuzzy-finder)
+Or https://github.com/rockerBOO/awesome-neovim
+
 ## Tutorials
 
 [Neovim With AstroNvim](https://www.youtube.com/watch?v=GEHPiZ10gOk)

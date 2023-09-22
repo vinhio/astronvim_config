@@ -34,6 +34,30 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
     },
   },
+  -- Floating Command Line
+  -- {
+  --   "folke/noice.nvim",
+  --   dependencies = {
+  --     "MunifTanjim/nui.nvim",
+  --     "rcarriga/nvim-notify",
+  --   },
+  -- },
+  -- Floating Command Line
+  {
+    "VonHeikemen/fine-cmdline.nvim",
+    dependencies = { "MunifTanjim/nui.nvim" },
+    keys = {
+      { "<leader>k", "<cmd>FineCmdline<CR>", desc = "Fine Cmd Line" },
+    },
+  },
+  -- {
+  --   "gelguy/wilder.nvim",
+  -- },
+  -- Ultimate Database Control https://www.youtube.com/watch?v=NhTPVXP8n7w
+  -- {
+  --   "tpope/vim-dadbod",
+  --   lazy = false,
+  -- },
   -- TreeJS https://github.com/AstroNvim/astrocommunity/blob/main/lua/astrocommunity/editing-support/treesj/init.lua
   -- {
   --   "Wansmer/treesj",
