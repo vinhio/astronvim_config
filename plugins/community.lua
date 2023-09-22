@@ -4,27 +4,36 @@ return {
   -- example of importing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  -- Theme Catppuccin. https://github.com/catppuccin/nvim
+  {
+    import = "astrocommunity.colorscheme.catppuccin",
+  },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.pack.typescript" },
+  {
+    import = "astrocommunity.pack.typescript",
+  },
   -- Surround
   {
-    "AstroNvim/astrocommunity",
-    { import = "astrocommunity.motion.nvim-surround" },
+    import = "astrocommunity.motion.nvim-surround",
   },
   -- TreeJS
   {
-    "AstroNvim/astrocommunity",
-    { import = "astrocommunity.editing-support.treesj" },
+    import = "astrocommunity.editing-support.treesj",
   },
   -- Git blame
   {
-    "AstroNvim/astrocommunity",
-    { import = "astrocommunity.git.git-blame-nvim" },
+    import = "astrocommunity.git.git-blame-nvim",
   },
-  -- Trouble shooting
-  {
-    "AstroNvim/astrocommunity",
-    { import = "astrocommunity.diagnostics.trouble-nvim" },
-  },
+  -- Git Diff View. WARNING: It make working space lost focus. I don't back again IDE workspace.
+  -- {
+  --   import = "astrocommunity.git.diffview-nvim",
+  -- },
+  -- Trouble shooting. NOTE: It is not really need to add.
+  -- {
+  --   import = "astrocommunity.diagnostics.trouble-nvim",
+  -- },
+  -- Moving. FIX: Conflict hotkey. So, doesn't work. Need to fix it.
+  -- {
+  --   import = "astrocommunity.editing-support.vim-move",
+  -- },
 }

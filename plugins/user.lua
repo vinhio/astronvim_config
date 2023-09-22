@@ -16,14 +16,14 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
-  -- Theme tokyonight https://github.com/folke/tokyonight.nvim
+  -- Theme tokyonight https://github.com/folke/tokyonight.nvim. NOTE: Use it in file `../init.lua`
   {
     "folke/tokyonight.nvim",
     lazy = false,
     priority = 1000,
     opts = {},
   },
-  -- Todo comments
+  -- Todo comments. Very good for `TODO`, `PERF`, `HACK`, `NOTE`, `FIX`, `WARNING` notes.
   {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
@@ -34,15 +34,15 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
     },
   },
-  -- Floating Command Line
-  -- {
-  --   "folke/noice.nvim",
-  --   dependencies = {
-  --     "MunifTanjim/nui.nvim",
-  --     "rcarriga/nvim-notify",
-  --   },
-  -- },
-  -- Floating Command Line
+  -- Notify. FIX: Need to review and fix..
+  {
+    "folke/noice.nvim",
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "rcarriga/nvim-notify",
+    },
+  },
+  -- Floating Command Line.
   {
     "VonHeikemen/fine-cmdline.nvim",
     dependencies = { "MunifTanjim/nui.nvim" },
@@ -50,21 +50,30 @@ return {
       { "<leader>k", "<cmd>FineCmdline<CR>", desc = "Fine Cmd Line" },
     },
   },
+  -- Search box https://github.com/VonHeikemen/searchbox.nvim. NOTE: Sill didn't get any useful case.
+  -- {
+  --   "VonHeikemen/searchbox.nvim",
+  --   dependencies = { "MunifTanjim/nui.nvim" },
+  --   keys = {
+  --     { "<leader>s", "<cmd>SearchBoxIncSearch<CR>", desc = "Search Box" },
+  --   },
+  -- },
+  -- WARNING: Don't know how to config to it work.
   -- {
   --   "gelguy/wilder.nvim",
   -- },
-  -- Ultimate Database Control https://www.youtube.com/watch?v=NhTPVXP8n7w
+  -- Ultimate Database Control https://www.youtube.com/watch?v=NhTPVXP8n7w. NOTE: It worked. But need more time to review later.
   -- {
   --   "tpope/vim-dadbod",
   --   lazy = false,
   -- },
-  -- TreeJS https://github.com/AstroNvim/astrocommunity/blob/main/lua/astrocommunity/editing-support/treesj/init.lua
+  -- TreeJS https://github.com/AstroNvim/astrocommunity/blob/main/lua/astrocommunity/editing-support/treesj/init.lua . NOTE: It worked. But still not see it useful.
   -- {
   --   "Wansmer/treesj",
   --   keys = { { "<leader>m", "<CMD>TSJToggle<CR>", desc = "Toggle Treesitter Join" } },
   --   cmd = { "TSJToggle", "TSJSplit", "TSJJoin" },
   --   opts = { use_default_keymaps = false },
-  -- Git blame
+  -- Git blame. NOTE: Declared in `community.lua` file
   -- {
   --   "f-person/git-blame .nvim",
   --   event = "VeryLazy",

@@ -35,6 +35,12 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 nvim
 ```
 
+## NeoVim programming
+
+[Discover and share Neovim configs](https://dotfyle.com)
+[Noice (Nice, Noise, Notice)](https://github.com/folke/noice.nvim)
+[nvim-notify](https://github.com/rcarriga/nvim-notify)
+
 ## Aswesome Neovim
 
 [Awesome Neovim Overview](https://www.trackawesomelist.com/rockerBOO/awesome-neovim/readme/#fuzzy-finder)
