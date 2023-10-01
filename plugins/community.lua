@@ -5,9 +5,9 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- Theme Catppuccin. https://github.com/catppuccin/nvim
-  {
-    import = "astrocommunity.colorscheme.catppuccin",
-  },
+  -- {
+  --   import = "astrocommunity.colorscheme.catppuccin",
+  -- },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   {
     import = "astrocommunity.pack.typescript",
@@ -20,10 +20,10 @@ return {
   {
     import = "astrocommunity.editing-support.treesj",
   },
-  -- Git blame
-  {
-    import = "astrocommunity.git.git-blame-nvim",
-  },
+  -- Git blame. WARNING: Temporary disable it because it make IDE be mess.
+  -- {
+  --   import = "astrocommunity.git.git-blame-nvim",
+  -- },
   -- Git Diff View. WARNING: It make working space lost focus. I don't back again IDE workspace.
   -- {
   --   import = "astrocommunity.git.diffview-nvim",
