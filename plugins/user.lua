@@ -27,7 +27,25 @@ return {
   {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
-    opts = {},
+    -- Customize `todo-comment`
+    --     How to use opts https://youtu.be/GEHPiZ10gOk?t=387
+    --     Add custom Note https://youtu.be/X52gaqp_M5o
+    -- TODO: Todo
+    -- HACK: Hacking
+    -- WARN: Wanring
+    -- PERF: Performance
+    -- NOTE: Note
+    -- TEST: Testing
+    -- FIX: Fix
+    -- ERROR: Error
+    -- REFS: Reference
+    opts = {
+      merge_keywords = true,
+      keywords = {
+        ERROR = { icon = " ", color = "#ff1155" },
+        REFS = { icon = "", color = "#10B981" },
+      },
+    },
     event = "User AstroFile",
     cmd = { "TodoQuickFix" },
     keys = {

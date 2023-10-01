@@ -1,3 +1,7 @@
+# Tutorials
+
+    https://www.youtube.com/watch?v=GEHPiZ10gOk
+
 # AstroNvim User Configuration Example
 
 A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
