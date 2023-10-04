@@ -1,10 +1,3 @@
--- TODO: What else?
--- PERF: Fully optimised
--- HACK: hmm, this hooks a bit funky
--- NOTE: adding a note
--- FIX: this needs fixing
--- WARNING: ???
-
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
@@ -76,7 +69,7 @@ return {
   --     { "<leader>s", "<cmd>SearchBoxIncSearch<CR>", desc = "Search Box" },
   --   },
   -- },
-  -- WARNING: Don't know how to config to it work.
+  -- WARN: Don't know how to config to it work.
   -- {
   --   "gelguy/wilder.nvim",
   -- },
